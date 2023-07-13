@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap");
+
+
+body {
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    font-family: "Playfair";
+  }
+
+  .container {
+    display: flex; /* Enable flexbox layout for the container */
+    padding-left: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border: 10px solid rgb(43, 43, 86);
+    border-radius: 10%;
+    
+  }
+
+  .container .electrNow {
+    padding-left: 80px;
+  } 
+  
+  .container .weatherNow {
+    padding-right: 80px;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  p {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+
+  h1 {
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  p span {
+    font-style: italic;
+    font-weight: 700;
+  }
